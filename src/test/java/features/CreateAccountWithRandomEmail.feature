@@ -13,13 +13,13 @@ Feature: Create new Account with Random Email
       """
       {
         "email": "#(email)",
-        "firstName": "Naeebullah",
-        "lastName": "Shinwari",
+        "firstName": "Mohammad",
+        "lastName": "Shokriyan",
         "title": "Mr.",
         "gender": "MALE",
-        "maritalStatus": "Married",
-        "employmentStatus": "Test Engineer",
-        "dateOfBirth": "1990-08-25"
+        "maritalStatus": "Single",
+        "employmentStatus": "Software Developer",
+        "dateOfBirth": "1985-02-27"
       }
       """
     When method post

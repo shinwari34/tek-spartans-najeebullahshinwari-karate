@@ -28,4 +28,4 @@ Feature: Testing Account APIs
     When method get
     Then print response
     Then status 404
-    Then assert response.errorMessage == "Account with id " + accountId +" not found
+    Then assert response.errorMessage == "Account with id " + accountId +" not found"
