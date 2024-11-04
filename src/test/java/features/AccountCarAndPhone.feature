@@ -15,7 +15,7 @@ Feature: Testing adding car and phone to an account
     Given request
       """
       {
-        "phoneNumber": "2023034040",
+        "phoneNumber": "1234567890",
         "phoneExtension": "",
         "phoneTime": "Anytime",
         "phoneType": "Mobile"
@@ -35,9 +35,9 @@ Feature: Testing adding car and phone to an account
       """
       {
         "make": "Ford",
-        "model": "Mustang",
+        "model": "Mastag",
         "year": "2024",
-        "licensePlate": "ABCD1234"
+        "licensePlate": "ABC2024"
       }
       """
     When method post
