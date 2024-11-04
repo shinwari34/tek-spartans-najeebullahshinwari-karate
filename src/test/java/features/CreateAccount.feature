@@ -7,7 +7,7 @@ Feature: Create Account Feature
   Scenario: Create new account
     Given url BASE_URL
     Given path "/api/accounts/add-primary-account"
-    * def email = "mohammad_instructor2517@tekschool.us"
+    * def email = "Najeebullah355@gmail.com"
     Given request
         """
         {
